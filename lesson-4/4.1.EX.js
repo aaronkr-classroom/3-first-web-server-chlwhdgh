@@ -39,7 +39,7 @@ const app = http.createServer((req, res) => {
   // HTTP 헤더는 요청이나 응답에서 전송되는 내용을 설명하는 정보 필드를 포함한다.
 
   // 이 코드 블록에 의해 시스템은 로컬 변수인 resMsg를 HTML의 메시지 응답에 할당한다.
-  let resMsg = "<h1>Hello, Eveerybody!</h1>";
+  let resMsg = "<h1>Hello, Everybody!</h1>";
 
   // 바로 다음 줄에 write를 써서 HTML 형식의 출력문으로 응답을 시작하고 end를 써서 응답을 종료시킨다.
   res.write(resMsg);
